@@ -1,6 +1,8 @@
 /* header style here */
 #nav-button {
     background: #B68C5A;
+    color: white;
+    font-weight: bold;
 }
 
 .bannar-title {
