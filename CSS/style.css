@@ -1,14 +1,84 @@
-
 /* header style here */
-#nav-button{
+#nav-button {
     background: #B68C5A;
 }
 
+.bannar-title {
+    font-weight: 700;
+    font-size: 52px;
+    padding: 0px 225px;
+    text-align: center;
+}
+
+.bannar-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E7E7E7;
+    padding: 0px 225px;
+    text-align: center;
+}
+
+#bannar-search {
+    width: 333px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.banner-button {
+    height: 45px;
+    width: 85px;
+    border-radius: 8px;
+    background: #B68C5A;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
 
 
-
-
-.client-image{
+.client-image {
     background-color: black;
     opacity: .3;
+}
+
+
+@media screen and (max-width:576px) {
+    .bannar-description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #E7E7E7;
+        padding: 0 0;
+        text-align: center;
+    }
+
+    .bannar-title {
+        font-weight: 700;
+        font-size: 28px;
+        padding: 0px 5px;
+        text-align: center;
+    }
+
+    #bannar-img {
+        height: 358px;
+
+    }
+
+    #bannar-search {
+        width: 276px;
+        height: 45px;
+        padding: 15px;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .search-section{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        justify-content: center;
+        align-items: center;
+    }
 }
