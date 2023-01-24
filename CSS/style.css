@@ -41,6 +41,11 @@
 .client-image {
     background-color: black;
     opacity: .3;
+    border-radius: 5px;
+}
+
+.client-img {
+    width: 93px;
 }
 
 
@@ -80,5 +85,10 @@
         gap: 12px;
         justify-content: center;
         align-items: center;
+    }
+
+    #faq-img{
+        width: 75%;
+        padding-top: 20px;
     }
 }
