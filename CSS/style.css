@@ -1,10 +1,12 @@
-#banner-title{
-    padding: 11px 211px;
+
+/* header style here */
+#nav-button{
+    background: #B68C5A;
 }
 
-#banner-description{
-    padding: 0 134px;
-}
+
+
+
 
 .client-image{
     background-color: black;
