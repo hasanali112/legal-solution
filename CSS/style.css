@@ -5,3 +5,8 @@
 #banner-description{
     padding: 0 134px;
 }
+
+.client-image{
+    background-color: black;
+    opacity: .3;
+}
